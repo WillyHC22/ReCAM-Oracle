@@ -92,3 +92,142 @@ def filter_similarity(embedding_dict, passage, words):
         else:
             pass
     return answers
+
+
+
+
+###
+
+import re
+import ast
+from tqdm import tqdm
+import torch
+import random
+import datasets
+import os
+import gzip
+import json
+import pandas as pd
+from datetime import date
+
+def get_summary_pseudogold(masked_summaries, golds, model, tokenizer, filename = '', dataset_path='save', top_selection=10):
+    
+    pattern = re.compile("[A-Za-z]+")
+
+    pg_tokens_list = []
+    for i in tqdm(range(len(masked_summaries))):
+        gold = golds[i]
+        if gold is not None:
+
+            # tokenize, convert to ids then tensor
+            tokens = tokenizer.tokenize(masked_summaries[i])
+            token_ids = tokenizer.convert_tokens_to_ids(tokens)
+            token_tensor = torch.LongTensor([token_ids])
+
+            # provide position ids explicitly
+            position_ids = list(range(0, token_tensor.size(1)))
+            position_id_tensor = torch.LongTensor([position_ids])
+
+            masked_idx = [i for i, token in enumerate(tokens) if tokenizer.mask_token in token][0]
+            # get the top 10 predictions of the masked token
+            with torch.no_grad():
+                outputs = model(input_ids=token_tensor, position_ids=position_id_tensor)
+                predictions = outputs[0][0, masked_idx].topk(top_selection)
+
+            # tokenizer is different than TA-MAMC, trying to remove word pieces
+            pg_tokens = []
+            for index in predictions.indices:
+                token = tokenizer.convert_ids_to_tokens([index])[0]
+                if gold not in token and token not in gold:
+                    token = token[1:] if token[0] == 'Ġ' else token
+                    if len(token) > 2 and pattern.fullmatch(token):
+                        pg_tokens.append(token.lower())
+
+            pg_tokens = list(set(pg_tokens))
+            random.shuffle(pg_tokens)
+            chosen_pg_tokens = pg_tokens[:4]
+        else:
+            chosen_pg_tokens = None 
+        
+        pg_tokens_list.append(chosen_pg_tokens)
+        
+    df_result = pd.DataFrame({'texts':masked_summaries, 'golds':golds, 'pseudo_golds':pg_tokens_list})
+    
+    df_result_filtered = df_result[~df_result['text'].isna()]
+    df_result_filtered = df_result_filtered[df_result_filtered['pseudo_golds'] != '[]']
+    df_result_filtered['len_pseudo_golds'] = df_result_filtered.apply(lambda x: len(ast.literal_eval(x['pseudo_golds'])), axis=1)
+    df_result_filtered = df_result_filtered[df_result_filtered['len_pseudo_golds']>=4]
+    
+    if not os.path.exists(dataset_path):
+        os.makedirs(dataset_path)
+        
+    if filename == '':
+        filename = date.today().strftime("%d%m%Y")
+        
+    df_result[['texts', 'golds', 'pseudo_golds']]\
+        .to_csv(dataset_path + '/' + filename + '_masked_summary_golds_pseudo_options_filtered.csv', index=False)
+    
+    df_result_filtered[['texts', 'golds', 'pseudo_golds']]\
+        .to_csv(dataset_path + '/' + filename + '_masked_summary_golds_pseudo_options_filtered.csv', index=False)
+            
+    return pg_tokens_list
+
+
+def load_recam_dataset(task_number = 1, split = 'train'):
+    
+    with open(os.getcwd()[:-17] + 'data/recam/Task_' + str(task_number) + '_' + split + '.jsonl', 'r') as json_file:
+        json_list = list(json_file)
+    recam_dataset = [json.loads(json_str) for json_str in json_list]
+    
+    return recam_dataset
+
+
+def load_tapt_dataset(dataset_name = 'xsum', split = 'train'):
+
+    if dataset_name == 'xsum':
+
+        passage = datasets.load_dataset('xsum')[split]['document']
+        summary = datasets.load_dataset('xsum')[split]['summary']
+
+    elif dataset_name == 'newsroom':
+
+        path = os.getcwd()[:-17] + 'data/newsroom/release/' + split + '.jsonl.gz'
+        dataset = []
+        with gzip.open(path) as f:
+            for ln in f:
+                obj = json.loads(ln)
+                dataset.append(obj)
+
+        passage = [dataset[i]['text'] for i in range(len(dataset))]
+        summary = [dataset[i]['summary'] for i in range(len(dataset))]
+
+    elif dataset_name == 'cnn':
+
+        passage = datasets.load_dataset('cnn_dailymail', '3.0.0')[split]['article']
+        summary = datasets.load_dataset('cnn_dailymail', '3.0.0')[split]['highlights']
+        
+    return passage, summary
+
+
+def get_gold_and_mask(summaries, golds, tokenizer):
+
+    masked_summaries = []
+    for i in tqdm(range(len(summaries))):
+        gold = golds[i]
+        if gold is not None:
+            gold = gold.lower()
+            
+            # corenlp can't receive % etc
+            text = re.sub(r"[^A-Za-z0-9?!., ]+", '', summaries[i].lower())
+
+            # mask
+            start_gold_index = text.index(gold)
+            end_gold_index = start_gold_index + len(gold)
+            text = text[:start_gold_index] + tokenizer.mask_token + text[end_gold_index:]
+            
+        else:
+            text = None
+        
+        masked_summaries.append(text)
+            
+    return masked_summaries

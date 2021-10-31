@@ -59,19 +59,16 @@ def create_list_gold():
     xsum = load_dataset('xsum', split='train')
 
     #Create the embedding dict used for the similarity filter
-    
     embeddings_dict = create_embedding_dict_840()
-    #If we want to process the whole dataset:
+
     nb_summaries = len(xsum)
     gold_answers = []
-    #nb_summaries = 100
     no_ans = 0
     one_ans = 0
     more_than_one_ans = 0
 
     for i in range(nb_summaries):
         answers = []
-        #summary_score = []
         summary_score = {}
 
         #Change here if you use a dataset with another structure than xsum
@@ -113,19 +110,63 @@ def create_list_gold():
             golden_answer = min(dict_temp, key=dict_temp.get)
         gold_answers.append(golden_answer)
 
-        # f.write("Summary used : {} \n".format(summary))
-        # f.write("id of the summary : {} \n".format(id_doc))
-        # f.write("{} \n".format(summary_score))
-        # f.write("First batch of answers after NS Score filtering : {} \n".format(answers))
-        # f.write("Second batch of answers after Lemma filter : {} \n".format(filtered1_answers))
-        # f.write("Third batch of answers after Synonym/Antomym filter : {} \n".format(filtered2_answers))
-        # f.write("Fourth batch of answers after Similarity filter : {} \n".format(filtered3_answers))
-        # f.write("The golden answer kept for this summary is : {} \r\n".format(golden_answer))
-       
-    #print("After filtering {} summaries, there are :\n{} with no possible golden answer,\n{} with one possible golden answer,\n{} with more than one possible golden answer".format(nb_summaries, no_ans, one_ans, more_than_one_ans))
     log = "After filtering {} summaries, there are :\n{} with no possible golden answer,\n{} with one possible golden answer,\n{} with more than one possible golden answer".format(nb_summaries, no_ans, one_ans, more_than_one_ans)
 
     return gold_answers, log
+
+def create_list_gold(passages, summaries): 
+
+    #Create the embedding dict used for the similarity filter
+    embeddings_dict = create_embedding_dict_840()
+
+    gold_answers = []
+    no_ans = 0
+    one_ans = 0
+    more_than_one_ans = 0
+
+    for passage, summary in zip(passages, summaries):
+        answers = []
+        summary_score = {}
+
+        tokenized_passage = word_tokenize(passage)
+        tokenized_summary = word_tokenize(summary)
+        tagged_summary = pos_tag(tokenized_summary)
+        filtered1_answers, filtered2_answers, filtered3_answers = [], [], []
+
+        for word in tagged_summary:
+            tag = word[1]
+            #Keeping only noun and verbs for subtask 2
+            if tag == "NN" or tag == "VB":
+                score = NonSpecificity_Scorer(passage, summary, word[0])
+                #summary_score.append([word[0], score])
+                summary_score[word[0]] = score
+                #Filter on score
+                if score < 6:
+                    answers.append(word[0])
+                    filtered1_answers = filter_lemma(tokenized_passage, answers)
+                    filtered2_answers = filter_syn_ant(tokenized_passage, filtered1_answers)
+                    filtered3_answers = filter_similarity(embeddings_dict, tokenized_passage, filtered2_answers)
+
+        if len(filtered3_answers) == 0:
+            no_ans += 1
+            golden_answer = ""
+        elif len(filtered3_answers) == 1:
+            one_ans += 1
+            golden_answer = filtered3_answers[0]
+        elif len(filtered3_answers) > 1:
+            more_than_one_ans += 1
+            #If we have multiple possible answer after all the filter, the final golden option is the one with the lowest score
+            dict_temp = {}
+            for answer in filtered3_answers:
+                dict_temp[answer] = summary_score[answer]
+            #If same score, we pick the first one
+            golden_answer = min(dict_temp, key=dict_temp.get)
+        gold_answers.append(golden_answer)
+
+    log = "After filtering {} summaries, there are :\n{} with no possible golden answer,\n{} with one possible golden answer,\n{} with more than one possible golden answer".format(nb_summaries, no_ans, one_ans, more_than_one_ans)
+
+    return gold_answers, log
+
 
 def main():
     import time

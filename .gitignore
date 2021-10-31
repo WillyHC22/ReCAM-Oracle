@@ -1,4 +1,5 @@
 oracle_subtask2/glove_emb/
+oracle_subtask2/dataset/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
