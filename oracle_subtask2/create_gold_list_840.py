@@ -5,7 +5,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag
 from datasets import load_dataset 
 
-from utils import filter_lemma, filter_syn_ant, filter_similarity
+from oracle_subtask2.utils import filter_lemma, filter_syn_ant, filter_similarity
 
 
 lemmatizer = WordNetLemmatizer()
@@ -114,7 +114,7 @@ def create_list_gold():
 
     return gold_answers, log
 
-def create_list_gold(passages, summaries): 
+def create_list_gold_oracle_2(passages, summaries): 
 
     #Create the embedding dict used for the similarity filter
     embeddings_dict = create_embedding_dict_840()

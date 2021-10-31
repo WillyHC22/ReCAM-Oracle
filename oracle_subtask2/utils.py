@@ -117,7 +117,7 @@ def get_summary_pseudogold(masked_summaries, golds, model, tokenizer, filename =
     pg_tokens_list = []
     for i in tqdm(range(len(masked_summaries))):
         gold = golds[i]
-        if gold is not None:
+        if gold != "":
 
             # tokenize, convert to ids then tensor
             tokens = tokenizer.tokenize(masked_summaries[i])
@@ -207,27 +207,3 @@ def load_tapt_dataset(dataset_name = 'xsum', split = 'train'):
         summary = datasets.load_dataset('cnn_dailymail', '3.0.0')[split]['highlights']
         
     return passage, summary
-
-
-def get_gold_and_mask(summaries, golds, tokenizer):
-
-    masked_summaries = []
-    for i in tqdm(range(len(summaries))):
-        gold = golds[i]
-        if gold is not None:
-            gold = gold.lower()
-            
-            # corenlp can't receive % etc
-            text = re.sub(r"[^A-Za-z0-9?!., ]+", '', summaries[i].lower())
-
-            # mask
-            start_gold_index = text.index(gold)
-            end_gold_index = start_gold_index + len(gold)
-            text = text[:start_gold_index] + tokenizer.mask_token + text[end_gold_index:]
-            
-        else:
-            text = None
-        
-        masked_summaries.append(text)
-            
-    return masked_summaries
