@@ -1,0 +1,5 @@
+After filtering 204045 summaries, there are :
+128125 with no possible golden answer,
+57744 with one possible golden answer,
+18176 with more than one possible golden answer
+Using glove 840, it took 40256.405693769455s to process XSUM

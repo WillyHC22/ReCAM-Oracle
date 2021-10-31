@@ -1,0 +1,800 @@
+Summary used : New Welsh Rugby Union chairman Gareth Davies believes a joint £3.3m WRU-regions fund should be used to retain home-based talent such as Liam Williams, not bring back exiled stars. 
+id of the summary : 29750031 
+{'chairman': 5, 'fund': 12, 'be': 1, 'retain': 3, 'talent': 6, 'bring': 3} 
+First batch of answers after NS Score filtering : ['chairman', 'be', 'retain', 'bring'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A suspicious package left outside an Alliance Party office in east Belfast has been declared a hoax. 
+id of the summary : 28381580 
+{'package': 5, 'office': 8, 'east': 5, 'hoax': 7} 
+First batch of answers after NS Score filtering : ['package', 'east'] 
+Second batch of answers after Lemma filter : ['east'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The UK's international reputation for a strong and well-balanced energy policy has taken another knock. 
+id of the summary : 34786128 
+{'reputation': 8, 'energy': 7, 'policy': 9, 'knock': 9} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The Met Office has issued a yellow weather warning for ice across most of Wales. 
+id of the summary : 38785939 
+{'weather': 8, 'ice': 4} 
+First batch of answers after NS Score filtering : ['ice'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Two more men have been charged with the murder of another man who was found stabbed to death in his home following a suspected burglary. 
+id of the summary : 36231761 
+{'murder': 2, 'man': 7, 'death': 7, 'home': 7, 'burglary': 11} 
+First batch of answers after NS Score filtering : ['murder'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Bristol flanker Jack Lam has signed a new two-year contract with the Championship club until 2018. 
+id of the summary : 34984915 
+{'flanker': 9, 'contract': 2, 'club': 10} 
+First batch of answers after NS Score filtering : ['contract'] 
+Second batch of answers after Lemma filter : ['contract'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Six Nations sides must change their approach if they are to compete with the best in the world, says ex-Italy and South Africa coach Nick Mallett. 
+id of the summary : 35480088 
+{'change': 1, 'approach': 10, 'compete': 1, 'world': 9, 'ex-Italy': 17, 'coach': 6} 
+First batch of answers after NS Score filtering : ['change', 'compete'] 
+Second batch of answers after Lemma filter : ['change', 'compete'] 
+Third batch of answers after Synonym/Antomym filter : ['change', 'compete'] 
+Fourth batch of answers after Similarity filter : ['compete'] 
+The golden answer kept for this summary is : compete 
+Summary used : For months journalists like me have been speculating on whether Tokyoites are really that enthusiastic about getting the Olympics. 
+id of the summary : 24007994 
+{} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Bury have confirmed ex-Celtic and England midfielder Alan Thompson as new manager Lee Clark's assistant boss. 
+id of the summary : 39021002 
+{'midfielder': 8, 'manager': 7, 'assistant': 6, 'boss': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A man in central Germany tried to leave his house by the front door only to find a brick wall there. 
+id of the summary : 38502720 
+{'man': 4, 'leave': 6, 'house': 8, 'front': 5, 'door': 9, 'find': 2, 'brick': 7, 'wall': 8} 
+First batch of answers after NS Score filtering : ['man', 'front', 'find'] 
+Second batch of answers after Lemma filter : ['man', 'front', 'find'] 
+Third batch of answers after Synonym/Antomym filter : ['man', 'front', 'find'] 
+Fourth batch of answers after Similarity filter : ['front'] 
+The golden answer kept for this summary is : front 
+Summary used : Graffiti artist Banksy is believed to be behind a new painting which shows a boy hunched over a sewing machine stitching union flag bunting. 
+id of the summary : 18075620 
+{'artist': 6, 'be': 1, 'painting': 9, 'boy': 7, 'machine': 11, 'union': 10, 'flag': 8, 'bunting': 14} 
+First batch of answers after NS Score filtering : ['be'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A drug given to pregnant women for epilepsy and bipolar disorder caused "serious malformations" in up to 4,100 children, a French study suggests. 
+id of the summary : 39657139 
+{'drug': 5, 'epilepsy': 10, 'disorder': 7, 'study': 7} 
+First batch of answers after NS Score filtering : ['drug'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : David Beckham has expressed his pride at helping London win their 2012 Olympics bid, despite not being picked in Great Britain's football squad. 
+id of the summary : 19016797 
+{'pride': 2, 'bid': 8, 'football': 10, 'squad': 7} 
+First batch of answers after NS Score filtering : ['pride'] 
+Second batch of answers after Lemma filter : ['pride'] 
+Third batch of answers after Synonym/Antomym filter : ['pride'] 
+Fourth batch of answers after Similarity filter : ['pride'] 
+The golden answer kept for this summary is : pride 
+Summary used : We are exactly a quarter of the way through the Premier League season and some teams at the bottom of the table seem to be turning things around after making a bad start. 
+id of the summary : 37783264 
+{'quarter': 9, 'way': 5, 'season': 6, 'bottom': 10, 'table': 9, 'be': 1, 'start': 1} 
+First batch of answers after NS Score filtering : ['way', 'be', 'start'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Lawmakers from Pakistan's fourth-largest party, the opposition Muttahida Qaumi Movement (MQM), have resigned from both chambers of parliament. 
+id of the summary : 33883959 
+{'party': 6, 'opposition': 6, 'parliament': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The leader of a Mexican drug cartel, Edgar Valdez Villareal, has pleaded guilty to drugs charges in a US court. 
+id of the summary : 35251117 
+{'leader': 5, 'drug': 2, 'cartel': 8, 'court': 2} 
+First batch of answers after NS Score filtering : ['leader', 'drug', 'court'] 
+Second batch of answers after Lemma filter : ['drug', 'court'] 
+Third batch of answers after Synonym/Antomym filter : ['drug', 'court'] 
+Fourth batch of answers after Similarity filter : ['drug'] 
+The golden answer kept for this summary is : drug 
+Summary used : Chinese carmakers are vying to impress at this year's Beijing motor show as they look for opportunities outside their own borders to compensate for weaker demand at home. 
+id of the summary : 17811752 
+{'impress': 4, 'year': 6, 'motor': 2, 'show': 2, 'compensate': 2, 'demand': 8, 'home': 5} 
+First batch of answers after NS Score filtering : ['impress', 'motor', 'show', 'compensate', 'home'] 
+Second batch of answers after Lemma filter : ['impress', 'compensate'] 
+Third batch of answers after Synonym/Antomym filter : ['impress', 'compensate'] 
+Fourth batch of answers after Similarity filter : ['impress', 'compensate'] 
+The golden answer kept for this summary is : compensate 
+Summary used : Engineer Harry Huskey, who helped build many of the first ever computers, has died aged 101. 
+id of the summary : 37307825 
+{'build': 2} 
+First batch of answers after NS Score filtering : ['build'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : One of five Hong Kong booksellers who disappeared last year says he was forced by Chinese agents into a confession of "illegal trading". 
+id of the summary : 36549266 
+{'year': 6, 'confession': 9, 'trading': 4} 
+First batch of answers after NS Score filtering : ['trading'] 
+Second batch of answers after Lemma filter : ['trading'] 
+Third batch of answers after Synonym/Antomym filter : ['trading'] 
+Fourth batch of answers after Similarity filter : ['trading'] 
+The golden answer kept for this summary is : trading 
+Summary used : The bodies of the United States Air Force (USAF) crew killed in a helicopter crash in Norfolk have been removed from the scene. 
+id of the summary : 25663739 
+{'helicopter': 12, 'crash': 3, 'scene': 7} 
+First batch of answers after NS Score filtering : ['crash'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Controversial Australian politician Pauline Hanson is facing calls to apologise for suggesting students with autism be removed from classrooms. 
+id of the summary : 40363331 
+{'politician': 6, 'apologise': 6, 'autism': 9, 'be': 1} 
+First batch of answers after NS Score filtering : ['be'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The Trump campaign has denied allegations that Melania Trump plagiarised her speech at the Republican National Convention. 
+id of the summary : 36841848 
+{'campaign': 8, 'speech': 6} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Next week's three-day strike by drivers on Southern rail has been suspended ahead of fresh talks on Wednesday, the TUC has announced. 
+id of the summary : 38651177 
+{'week': 7, 'strike': 3, 'rail': 3} 
+First batch of answers after NS Score filtering : ['strike', 'rail'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Nigeria does not need the help of UN or African Union troops to take on Boko Haram, the country's national security adviser has told the BBC. 
+id of the summary : 30950628 
+{'Nigeria': 10, 'need': 1, 'help': 7, 'take': 2, 'country': 8, 'security': 13, 'adviser': 7} 
+First batch of answers after NS Score filtering : ['need', 'take'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A vibrant animation telling stories of indigenous Australia will be projected on to the Sydney Opera House every night at sunset. 
+id of the summary : 40413554 
+{'animation': 8, 'be': 1, 'night': 6, 'sunset': 10} 
+First batch of answers after NS Score filtering : ['be'] 
+Second batch of answers after Lemma filter : ['be'] 
+Third batch of answers after Synonym/Antomym filter : ['be'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Jeremy Clarkson will have to take a break from work for "quite some time" after contracting pneumonia, the TV presenter has said in a statement. 
+id of the summary : 40846356 
+{'have': 3, 'take': 2, 'break': 2, 'work': 4, 'time': 6, 'pneumonia': 12, 'TV': 10, 'presenter': 6, 'statement': 5} 
+First batch of answers after NS Score filtering : ['have', 'take', 'break', 'work', 'statement'] 
+Second batch of answers after Lemma filter : ['take', 'break', 'statement'] 
+Third batch of answers after Synonym/Antomym filter : ['statement'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : There is still no word on the fate of the European Space Agency's Mars lander, Schiaparelli. 
+id of the summary : 37707776 
+{'word': 7, 'fate': 6, 'lander': 10} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : MPs will get to have a say on the terms of Brexit negotiations, the Scottish Conservatives' constitution spokesman has told BBC Scotland. 
+id of the summary : 37601595 
+{'get': 2, 'have': 2, 'say': 8, 'constitution': 10, 'spokesman': 7} 
+First batch of answers after NS Score filtering : ['get', 'have'] 
+Second batch of answers after Lemma filter : ['get'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Offences involving scooters and mopeds have rocketed in London, but the epidemic is yet to spread to the rest of the UK. 
+id of the summary : 40731485 
+{'epidemic': 7, 'spread': 2, 'rest': 5} 
+First batch of answers after NS Score filtering : ['spread', 'rest'] 
+Second batch of answers after Lemma filter : ['rest'] 
+Third batch of answers after Synonym/Antomym filter : ['rest'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Pluto would appear to have glaciers of nitrogen ice, the latest pictures from the New Horizons probe suggest. 
+id of the summary : 33657447 
+{'appear': 2, 'have': 2, 'nitrogen': 6, 'ice': 7, 'probe': 10, 'suggest': 10} 
+First batch of answers after NS Score filtering : ['appear', 'have'] 
+Second batch of answers after Lemma filter : ['appear'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : In January, a Tanzanian student was assaulted and partially stripped by a mob in the southern Indian city of Bangalore after a Sudanese student's car ran over and killed a local woman. 
+id of the summary : 37094516 
+{'student': 6, 'mob': 5, 'city': 9, 'car': 10, 'woman': 6} 
+First batch of answers after NS Score filtering : ['mob'] 
+Second batch of answers after Lemma filter : ['mob'] 
+Third batch of answers after Synonym/Antomym filter : ['mob'] 
+Fourth batch of answers after Similarity filter : ['mob'] 
+The golden answer kept for this summary is : mob 
+Summary used : Rory Patterson's early goal proved enough to give second-placed Derry City a home victory over Bohemians in Friday night's Premier Division clash. 
+id of the summary : 36117461 
+{'goal': 9, 'give': 4, 'home': 1, 'victory': 7, 'night': 6, 'clash': 3} 
+First batch of answers after NS Score filtering : ['give', 'home', 'clash'] 
+Second batch of answers after Lemma filter : ['give', 'home', 'clash'] 
+Third batch of answers after Synonym/Antomym filter : ['clash'] 
+Fourth batch of answers after Similarity filter : ['clash'] 
+The golden answer kept for this summary is : clash 
+Summary used : The papers all lead with local angles on Thursday's horrific attack in Barcelona. 
+id of the summary : 40972027 
+{'attack': 10} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Shia Houthi rebels in Yemen have abducted the chief of staff of President Abdrabbuh Mansour Hadi. 
+id of the summary : 30862528 
+{'chief': 6, 'staff': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Antonio Giovinazzi will again race for Sauber in Sunday's Chinese Grand Prix as the replacement for Pascal Wehrlein. 
+id of the summary : 39485374 
+{'race': 2, 'replacement': 7} 
+First batch of answers after NS Score filtering : ['race'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Toshiba overstated its operating profit by a total of 151.8bn yen ($1.22bn, £780m) over several years, according to the findings of a probe. 
+id of the summary : 33595370 
+{'operating': 1, 'profit': 10, 'total': 3, '£780m': 17, 'probe': 9} 
+First batch of answers after NS Score filtering : ['operating', 'total'] 
+Second batch of answers after Lemma filter : ['operating', 'total'] 
+Third batch of answers after Synonym/Antomym filter : ['total'] 
+Fourth batch of answers after Similarity filter : ['total'] 
+The golden answer kept for this summary is : total 
+Summary used : Bordeaux's France international forward Jeremy Menez lost part of his right ear in a pre-season game with FC Lorient. 
+id of the summary : 36975528 
+{'part': 5, 'ear': 8, 'game': 9} 
+First batch of answers after NS Score filtering : ['part'] 
+Second batch of answers after Lemma filter : ['part'] 
+Third batch of answers after Synonym/Antomym filter : ['part'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The Portuguese president has invited incumbent Prime Minister Pedro Passos Coelho to form the next government, despite him having lost his majority. 
+id of the summary : 34611274 
+{'president': 10, 'form': 6, 'government': 9, 'majority': 5} 
+First batch of answers after NS Score filtering : ['majority'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Fulham rescued a dramatic late draw at Molineux just when Wolves looked to have snatched a last-minute victory. 
+id of the summary : 38192220 
+{'draw': 3, 'have': 3, 'victory': 7} 
+First batch of answers after NS Score filtering : ['draw', 'have'] 
+Second batch of answers after Lemma filter : ['draw'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Feats of daring and adventure in some of the world's most challenging landscapes will be showcased this weekend at the annual Edinburgh Mountain Film Festival. 
+id of the summary : 35504468 
+{'daring': 2, 'adventure': 3, 'world': 11, 'be': 1, 'weekend': 6} 
+First batch of answers after NS Score filtering : ['daring', 'adventure', 'be'] 
+Second batch of answers after Lemma filter : ['daring'] 
+Third batch of answers after Synonym/Antomym filter : ['daring'] 
+Fourth batch of answers after Similarity filter : ['daring'] 
+The golden answer kept for this summary is : daring 
+Summary used : A mother who was talking to her daughter on her mobile phone heard her being attacked and mugged in Edinburgh. 
+id of the summary : 37913903 
+{'mother': 10, 'daughter': 7, 'phone': 9} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : David Cameron has promised an end to what he called the "ridiculous merry-go-round" of taxing low earners then handing them money back in benefits. 
+id of the summary : 33221966 
+{'end': 7, 'merry-go-round': 9, 'money': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Flanker Sean O'Brien and full-back Rob Kearney are back in the Ireland team for Saturday's Six Nations match against France in Paris. 
+id of the summary : 35549072 
+{'team': 7, 'match': 3} 
+First batch of answers after NS Score filtering : ['match'] 
+Second batch of answers after Lemma filter : ['match'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Long-lost footage of Bath is to receive a special screening in the city at the cinema in which it was re-discovered. 
+id of the summary : 37451585 
+{'footage': 10, 'receive': 5, 'screening': 2, 'city': 7, 'cinema': 9} 
+First batch of answers after NS Score filtering : ['receive', 'screening'] 
+Second batch of answers after Lemma filter : ['receive', 'screening'] 
+Third batch of answers after Synonym/Antomym filter : ['screening'] 
+Fourth batch of answers after Similarity filter : ['screening'] 
+The golden answer kept for this summary is : screening 
+Summary used : At least 20 Australians have been killed fighting alongside militants in Iraq and Syria, the Australian government has said. 
+id of the summary : 30389736 
+{'government': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A memorial has been unveiled in Ceredigion to commemorate the acclaimed fisherman and broadcaster Moc Morgan. 
+id of the summary : 36511999 
+{'memorial': 7, 'commemorate': 2, 'fisherman': 7, 'broadcaster': 10} 
+First batch of answers after NS Score filtering : ['commemorate'] 
+Second batch of answers after Lemma filter : ['commemorate'] 
+Third batch of answers after Synonym/Antomym filter : ['commemorate'] 
+Fourth batch of answers after Similarity filter : ['commemorate'] 
+The golden answer kept for this summary is : commemorate 
+Summary used : A stowaway who clung to a plane before falling to his death near Heathrow was travelling with another man who was found alive in the plane's undercarriage, the Met Police has said. 
+id of the summary : 34073063 
+{'stowaway': 7, 'plane': 3, 'death': 6, 'man': 7, 'undercarriage': 9} 
+First batch of answers after NS Score filtering : ['plane', 'plane'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : South African police have arrested a man who they say swallowed 220 polished diamonds in an attempt to smuggle them out of the country. 
+id of the summary : 20330080 
+{'man': 4, 'attempt': 2, 'smuggle': 3, 'country': 8} 
+First batch of answers after NS Score filtering : ['man', 'attempt', 'smuggle'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Novak Djokovic has denied "absurd" allegations in an Italian newspaper that he "wanted to lose" a match at the Paris Masters in 2007. 
+id of the summary : 35366400 
+{'newspaper': 7, 'lose': 1, 'match': 2} 
+First batch of answers after NS Score filtering : ['lose', 'match'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : "Super falcons" are being used by three coastal towns to try to stop "nuisance" seagulls disturbing people. 
+id of the summary : 26519429 
+{'try': 7, 'stop': 1} 
+First batch of answers after NS Score filtering : ['stop'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Former Arsenal midfielder Mikel Arteta has taken up a coaching role at Manchester City under new manager Pep Guardiola. 
+id of the summary : 36697750 
+{'midfielder': 8, 'coaching': 7, 'role': 9, 'manager': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A Pakistani Islamic cleric has launched a "counter-terrorism" curriculum to combat the message of Islamist extremist groups such as Islamic State (IS), in an effort to help stop young people becoming radicalised. 
+id of the summary : 33249099 
+{'cleric': 8, 'counter-terrorism': 17, 'curriculum': 6, 'combat': 2, 'message': 4, 'extremist': 1, 'effort': 7, 'help': 7, 'stop': 2} 
+First batch of answers after NS Score filtering : ['combat', 'message', 'extremist', 'stop'] 
+Second batch of answers after Lemma filter : ['combat'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A 37-year-old man has been arrested in connection with the "senseless" death of a 23-year-old man in Greenock. 
+id of the summary : 34237953 
+{'man': 7, 'connection': 9, 'senseless': 1, 'death': 5} 
+First batch of answers after NS Score filtering : ['senseless', 'death'] 
+Second batch of answers after Lemma filter : ['senseless', 'death'] 
+Third batch of answers after Synonym/Antomym filter : ['senseless', 'death'] 
+Fourth batch of answers after Similarity filter : ['senseless', 'death'] 
+The golden answer kept for this summary is : senseless 
+Summary used : A raffle prize offered by Robert Downey Jr has helped raise nearly £1m for new children's hospice in Wiltshire. 
+id of the summary : 32203837 
+{'raffle': 10, 'prize': 7, 'raise': 2, 'hospice': 11} 
+First batch of answers after NS Score filtering : ['raise'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Streets in Wales are blighted by discarded cigarette butts, with 86% of roads strewn with smoking-related litter, a charity's survey shows. 
+id of the summary : 34855609 
+{'cigarette': 9, 'butts': 9, '%': 17, 'litter': 3, 'charity': 9, 'survey': 1} 
+First batch of answers after NS Score filtering : ['litter', 'survey'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A late penalty try gave Sale victory over Castres at Stade Pierre-Antoine in their European Challenge Cup clash. 
+id of the summary : 35041215 
+{'penalty': 8, 'try': 2, 'victory': 7, 'clash': 3} 
+First batch of answers after NS Score filtering : ['try', 'clash'] 
+Second batch of answers after Lemma filter : ['clash'] 
+Third batch of answers after Synonym/Antomym filter : ['clash'] 
+Fourth batch of answers after Similarity filter : ['clash'] 
+The golden answer kept for this summary is : clash 
+Summary used : A woman who set up a knife crime campaign after her son was killed said he would be proud of what she had achieved since his death 10 years ago. 
+id of the summary : 34225436 
+{'woman': 6, 'knife': 5, 'crime': 9, 'campaign': 6, 'son': 11, 'be': 1, 'death': 11} 
+First batch of answers after NS Score filtering : ['knife', 'be'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Nissan is creating up to 300 jobs at its plant in Sunderland to work on the car firm's luxury Infiniti brand. 
+id of the summary : 33090329 
+{'plant': 8, 'work': 2, 'car': 11, 'firm': 8, 'luxury': 8, 'brand': 10} 
+First batch of answers after NS Score filtering : ['work'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A cow which got into the water at Aberdeen Harbour has been shot after a rescue effort failed to coax it ashore. 
+id of the summary : 28105954 
+{'cow': 6, 'water': 6, 'rescue': 2, 'effort': 9, 'coax': 3} 
+First batch of answers after NS Score filtering : ['rescue', 'coax'] 
+Second batch of answers after Lemma filter : ['coax'] 
+Third batch of answers after Synonym/Antomym filter : ['coax'] 
+Fourth batch of answers after Similarity filter : ['coax'] 
+The golden answer kept for this summary is : coax 
+Summary used : The London Marathon was won seven times in 12 years by athletes who have recorded suspicious blood scores, according to the Sunday Times. 
+id of the summary : 33836491 
+{'blood': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : League One side Southend United have signed former Hull and Norwich defender Michael Turner on a one-year deal. 
+id of the summary : 40555672 
+{'side': 10, 'deal': 3} 
+First batch of answers after NS Score filtering : ['deal'] 
+Second batch of answers after Lemma filter : ['deal'] 
+Third batch of answers after Synonym/Antomym filter : ['deal'] 
+Fourth batch of answers after Similarity filter : ['deal'] 
+The golden answer kept for this summary is : deal 
+Summary used : A 22-year-old man arrested on suspicion of murder following the death of Lewis Siddall has been released on bail. 
+id of the summary : 33953866 
+{'man': 4, 'suspicion': 6, 'murder': 2, 'death': 7, 'bail': 7} 
+First batch of answers after NS Score filtering : ['man', 'murder'] 
+Second batch of answers after Lemma filter : ['man', 'murder'] 
+Third batch of answers after Synonym/Antomym filter : ['man', 'murder'] 
+Fourth batch of answers after Similarity filter : ['man', 'murder'] 
+The golden answer kept for this summary is : murder 
+Summary used : St Johnstone boss Tommy Wright is no longer under consideration for the Dundee United manager's job, BBC Scotland has learned. 
+id of the summary : 34478388 
+{'boss': 8, 'consideration': 11, 'manager': 7, 'job': 9} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : It is officially a regeneration area and Dyke House in Hartlepool has newly built smart houses - but they are in the minority. 
+id of the summary : 20220991 
+{'regeneration': 10, 'area': 7, 'minority': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Burnley have completed the signing of Brentford defender James Tarkowski for an undisclosed fee. 
+id of the summary : 35466254 
+{'signing': 5, 'defender': 6, 'fee': 2} 
+First batch of answers after NS Score filtering : ['signing', 'fee'] 
+Second batch of answers after Lemma filter : ['fee'] 
+Third batch of answers after Synonym/Antomym filter : ['fee'] 
+Fourth batch of answers after Similarity filter : ['fee'] 
+The golden answer kept for this summary is : fee 
+Summary used : Tate Modern has unveiled its new extension, a pyramid-like tower housing cavernous gallery spaces, ahead of its official opening. 
+id of the summary : 36517422 
+{'extension': 9, 'tower': 4, 'housing': 7, 'gallery': 9, 'opening': 6} 
+First batch of answers after NS Score filtering : ['tower'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Residents in Coalville in Leicestershire are cleaning up after high winds hit the town. 
+id of the summary : 29873183 
+{'town': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : US President-elect Donald Trump has chosen an outspoken critic of President Obama's climate change policies to head the Environmental Protection Agency. 
+id of the summary : 38247085 
+{'critic': 7, 'climate': 6, 'change': 1, 'head': 11} 
+First batch of answers after NS Score filtering : ['change'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Sir David Attenborough will join the line-up for this year's Edinburgh International TV Festival as he celebrates the 60th anniversary of the Natural History Unit. 
+id of the summary : 40739893 
+{'join': 1, 'line-up': 17, 'year': 6, 'TV': 11, 'anniversary': 8} 
+First batch of answers after NS Score filtering : ['join'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Bun Hashizume was 14 years old and lived in Hiroshima, in Japan, when a nuclear bomb was dropped on the city 70 years ago, at the end of World War Two. 
+id of the summary : 33772230 
+{'bomb': 8, 'city': 9, 'end': 2} 
+First batch of answers after NS Score filtering : ['end'] 
+Second batch of answers after Lemma filter : ['end'] 
+Third batch of answers after Synonym/Antomym filter : ['end'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : It's been topsy-turvy for the England side but eventful and entertaining nonetheless. 
+id of the summary : 38327877 
+{'side': 10, 'nonetheless': 1} 
+First batch of answers after NS Score filtering : ['nonetheless'] 
+Second batch of answers after Lemma filter : ['nonetheless'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Oxfam's annual income has risen to £401.4m, up £12m, despite the charity seeing a fall in money from its shops. 
+id of the summary : 33843459 
+{'income': 9, '£401.4m': 17, 'charity': 9, 'fall': 3, 'money': 8} 
+First batch of answers after NS Score filtering : ['fall'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Colleagues of a policeman shot dead by a gunman who then turned the gun on himself faced a "traumatic" scene, the head of the Irish police has said. 
+id of the summary : 34507416 
+{'shot': 6, 'gunman': 7, 'gun': 7, 'scene': 7, 'head': 9, 'police': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The Philippines army has said two coast guard personnel kidnapped and held hostage by Islamic militant group Abu Sayyaf managed to escape during a raid. 
+id of the summary : 33998661 
+{'army': 8, 'coast': 9, 'guard': 4, 'hostage': 7, 'militant': 1, 'group': 4, 'escape': 2, 'raid': 3} 
+First batch of answers after NS Score filtering : ['guard', 'militant', 'group', 'escape', 'raid'] 
+Second batch of answers after Lemma filter : ['raid'] 
+Third batch of answers after Synonym/Antomym filter : ['raid'] 
+Fourth batch of answers after Similarity filter : ['raid'] 
+The golden answer kept for this summary is : raid 
+Summary used : An author has been convicted of raping a woman and her daughter. 
+id of the summary : 39155867 
+{'author': 6, 'woman': 6, 'daughter': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Three anglers are "extremely lucky to be alive" after being rescued from a capsized boat off the Devon coast, Portland Coastguards have said. 
+id of the summary : 14352781 
+{'be': 1, 'boat': 4, 'coast': 6} 
+First batch of answers after NS Score filtering : ['be', 'boat'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Some major UK lenders have returned to selling mortgages to homebuyers only able to offer a small deposit. 
+id of the summary : 34244220 
+{'offer': 2, 'deposit': 9} 
+First batch of answers after NS Score filtering : ['offer'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Two Russian planes flew close to a US guided missile destroyer almost a dozen times, American officials have said. 
+id of the summary : 36039703 
+{'missile': 10, 'destroyer': 6, 'dozen': 8} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Bath back Anthony Watson believes his side can win the European Champions Cup this season. 
+id of the summary : 34879688 
+{'side': 5, 'win': 1, 'season': 3} 
+First batch of answers after NS Score filtering : ['side', 'win', 'season'] 
+Second batch of answers after Lemma filter : ['side', 'season'] 
+Third batch of answers after Synonym/Antomym filter : ['side', 'season'] 
+Fourth batch of answers after Similarity filter : ['side', 'season'] 
+The golden answer kept for this summary is : season 
+Summary used : The Northern Ireland Council for Ethnic Minorities (NICEM) has apologised for comparing school merger plan with the Holy Cross sectarian dispute of 2001. 
+id of the summary : 33085732 
+{'school': 6, 'merger': 11, 'plan': 3, 'dispute': 7} 
+First batch of answers after NS Score filtering : ['plan'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Wales fly-half Dan Biggar says he is learning to cope with the pressure of wearing the famous number 10 jersey. 
+id of the summary : 35498971 
+{'cope': 2, 'pressure': 9, 'number': 8, 'jersey': 10} 
+First batch of answers after NS Score filtering : ['cope'] 
+Second batch of answers after Lemma filter : ['cope'] 
+Third batch of answers after Synonym/Antomym filter : ['cope'] 
+Fourth batch of answers after Similarity filter : ['cope'] 
+The golden answer kept for this summary is : cope 
+Summary used : The unelected members of the House of Lords like nothing better than discussing elections. 
+id of the summary : 34521667 
+{'nothing': 1} 
+First batch of answers after NS Score filtering : ['nothing'] 
+Second batch of answers after Lemma filter : ['nothing'] 
+Third batch of answers after Synonym/Antomym filter : ['nothing'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Delayed upgrades to the railway line between Wrexham and Chester will start in spring. 
+id of the summary : 37035905 
+{'railway': 10, 'line': 11, 'start': 1, 'spring': 3} 
+First batch of answers after NS Score filtering : ['start', 'spring'] 
+Second batch of answers after Lemma filter : ['start', 'spring'] 
+Third batch of answers after Synonym/Antomym filter : ['spring'] 
+Fourth batch of answers after Similarity filter : ['spring'] 
+The golden answer kept for this summary is : spring 
+Summary used : Joe Hart kept Manchester City's hopes of reaching their first Champions League final alive with two brilliant late saves that ensured their semi-final first leg with Real Madrid finished goalless. 
+id of the summary : 36125922 
+{'alive': 1, 'leg': 10, 'goalless': 1} 
+First batch of answers after NS Score filtering : ['alive', 'goalless'] 
+Second batch of answers after Lemma filter : ['alive', 'goalless'] 
+Third batch of answers after Synonym/Antomym filter : ['alive', 'goalless'] 
+Fourth batch of answers after Similarity filter : ['alive', 'goalless'] 
+The golden answer kept for this summary is : alive 
+Summary used : The Irish government has rejected calls to set up a Commission of Investigation into the sale of Nama's portfolio of loans in Northern Ireland. 
+id of the summary : 33433710 
+{'government': 7, 'set': 5, 'sale': 6, 'portfolio': 8} 
+First batch of answers after NS Score filtering : ['set'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A mystery buyer has stepped in to secure a rare set of World War Two medals which were to be auctioned. 
+id of the summary : 39327189 
+{'mystery': 10, 'buyer': 8, 'secure': 1, 'set': 2, 'be': 1} 
+First batch of answers after NS Score filtering : ['secure', 'set', 'be'] 
+Second batch of answers after Lemma filter : ['secure', 'set'] 
+Third batch of answers after Synonym/Antomym filter : ['set'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Northern Ireland may be better known for its backdrop to Game of Thrones than the magic of Harry Potter. 
+id of the summary : 38968666 
+{'be': 1, 'backdrop': 10, 'magic': 12} 
+First batch of answers after NS Score filtering : ['be'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The Bank of England has asked formally for new powers to prevent a housing boom and bust. 
+id of the summary : 29457607 
+{'prevent': 1, 'housing': 7, 'boom': 3, 'bust': 3} 
+First batch of answers after NS Score filtering : ['prevent', 'boom', 'bust'] 
+Second batch of answers after Lemma filter : ['bust'] 
+Third batch of answers after Synonym/Antomym filter : ['bust'] 
+Fourth batch of answers after Similarity filter : ['bust'] 
+The golden answer kept for this summary is : bust 
+Summary used : People with a final salary pension who are desperate to access their cash are asking financial advisers to bend the new pension freedom rules. 
+id of the summary : 33011771 
+{'pension': 10, 'access': 2, 'cash': 8, 'bend': 3, 'freedom': 5} 
+First batch of answers after NS Score filtering : ['access', 'bend', 'freedom'] 
+Second batch of answers after Lemma filter : ['bend'] 
+Third batch of answers after Synonym/Antomym filter : ['bend'] 
+Fourth batch of answers after Similarity filter : ['bend'] 
+The golden answer kept for this summary is : bend 
+Summary used : The introduction of Universal Credit (UC) will leave working families worse off on average, the Institute for Fiscal Studies has said. 
+id of the summary : 35475350 
+{'introduction': 8, 'leave': 1, 'average': 3} 
+First batch of answers after NS Score filtering : ['leave', 'average'] 
+Second batch of answers after Lemma filter : ['leave'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : All Highland Council vehicles are to be tracked following reports of alleged misuses by staff, including the use of a van for transporting sheep. 
+id of the summary : 36558645 
+{'be': 1, 'staff': 9, 'use': 1, 'van': 9, 'sheep': 6} 
+First batch of answers after NS Score filtering : ['be', 'use'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Chelsea boss Jose Mourinho will face no disciplinary action after the Football Association cleared him of making discriminatory comments towards former club doctor Eva Carneiro. 
+id of the summary : 34407397 
+{'boss': 8, 'face': 5, 'action': 6, 'club': 9, 'doctor': 2} 
+First batch of answers after NS Score filtering : ['face', 'doctor'] 
+Second batch of answers after Lemma filter : ['face'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Scotland's politicians have been arguing the case for and against the UK remaining in the EU, as the date for the referendum was announced. 
+id of the summary : 35620913 
+{'case': 7, 'date': 6, 'referendum': 7} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : At the age of 13, Susan Pollack - now a retired grandmother living in north London - was taken from her home in rural Hungary, loaded into a cattle truck and transported by rail through German-occupied Poland. 
+id of the summary : 38745115 
+{'age': 7, 'grandmother': 9, 'living': 7, 'home': 1, 'truck': 3, 'rail': 8} 
+First batch of answers after NS Score filtering : ['home', 'truck'] 
+Second batch of answers after Lemma filter : ['home'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Newly-discovered documents have cast doubt on Dylan Thomas' reputation as a hard-drinking womaniser. 
+id of the summary : 36266596 
+{'doubt': 5, 'reputation': 8, 'womaniser': 7} 
+First batch of answers after NS Score filtering : ['doubt'] 
+Second batch of answers after Lemma filter : ['doubt'] 
+Third batch of answers after Synonym/Antomym filter : ['doubt'] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : A County Tyrone man who admitted beating his children with a belt has been given a combined probation and community service order. 
+id of the summary : 36402391 
+{'man': 6, 'belt': 9, 'probation': 9, 'community': 7, 'service': 2, 'order': 8} 
+First batch of answers after NS Score filtering : ['service'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : The number of swans on the River Thames recorded in the annual census is expected to have risen, despite the deaths of two breeding pairs. 
+id of the summary : 33575333 
+{'number': 6, 'census': 3, 'have': 1} 
+First batch of answers after NS Score filtering : ['census', 'have'] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Nico Rosberg is to remain at Mercedes alongside Lewis Hamilton after signing a contract extension for at least two more years. 
+id of the summary : 27523534 
+{'remain': 2, 'contract': 2, 'extension': 9} 
+First batch of answers after NS Score filtering : ['remain', 'contract'] 
+Second batch of answers after Lemma filter : ['contract'] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : Plans to overhaul urgent care services at two hospitals have been put forward. 
+id of the summary : 38115545 
+{'overhaul': 10, 'care': 11} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
+Summary used : French actress Maria Schneider, best known for playing Marlon Brando's lover in Last Tango in Paris, has died in Paris aged 58 after a long illness. 
+id of the summary : 12355496 
+{'actress': 8, 'lover': 6, 'illness': 9} 
+First batch of answers after NS Score filtering : [] 
+Second batch of answers after Lemma filter : [] 
+Third batch of answers after Synonym/Antomym filter : [] 
+Fourth batch of answers after Similarity filter : [] 
+The golden answer kept for this summary is :  
