@@ -5,7 +5,7 @@ https://arxiv.org/pdf/2105.14879.pdf
 The dataset is built using XSUM dataset as a base. We first find the abstract concept in the summaries provided from XSUM dataset, then we replace then by a placeholder. We then generate 4 other options in order to transform the XSUM dataset into a Reading Comprehension of Abstract Meaning (ReCAM) dataset.
 
 
-Two general steps :
+Two general steps (Not doing second one because we are using hte same way TA-MAMC chose to generate pseudo answers):
 
 1) Find non specific concept :
 - Abstractness is based on WordNet hypernyms hierarchy in terms of distance to the root (0-17). They keep words with distance <6 to root. They also keep only nouns/verbs.
